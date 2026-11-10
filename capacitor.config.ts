@@ -1,0 +1,26 @@
+const config = {
+  "appId": "com.primeone.musicplayer",
+  "appName": "PRIME ONE",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "allowNavigation": [
+      "generativelanguage.googleapis.com",
+      "*.googleapis.com",
+      "*.firebaseapp.com"
+    ]
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_music_note",
+      "iconColor": "#06b6d4"
+    },
+    "SplashScreen": {
+      "launchAutoHide": true,
+      "backgroundColor": "#090d16",
+      "showSpinner": false
+    }
+  }
+};
+
+export default config;
